@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "SARA: Support for Addiction Recovery and Mental Health",
+    "description": "Provides access to online peer support and resources for navigating recovery and mental health care, finding support groups and treatment centers, tools and trackers to help with goal setting and tracking progress on recovery goals, and access to contact the Open Source Recovery DAO for additional support and guidance.",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "https://*/*"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js": ["content_script.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
