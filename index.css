@@ -1,0 +1,50 @@
+body {
+    min-width: 250px;
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+#key_entered {
+    display: none;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Buttons */
+button {
+    background-color: #333;
+    color: #F5F5F5;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Boxes */
+.box {
+    padding: 20px;
+    background-color: #F5F5F5;
+    color: #333;
+    margin-bottom: 20px;
+}
